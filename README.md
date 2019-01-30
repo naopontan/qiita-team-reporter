@@ -6,7 +6,7 @@ This creates a report based on daily reports in your Qiita:Team.
 
 ```shell
 cd ./exe
-./list_daily_reports yasulab
+./list_daily_reports yasulab | sort -n
 
 # ...
 # 2018-07-24, Railsガイド, 8h, Railsガイド5.1更新準備を進めた
